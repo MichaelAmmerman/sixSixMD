@@ -11,7 +11,7 @@ Grand Canyon Boundary - US National Parks Service - https://public-nps.opendata.
 
 
 ## Result: 
-![Grand Canyon Map](grandCanyon.png)
+![Grand Canyon Map](grandCanyon1.png)
 
 There are 194 wind turbines within 100 miles of Grand Canyon Nation Park.
 
