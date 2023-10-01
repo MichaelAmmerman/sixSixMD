@@ -1,7 +1,7 @@
 # Geoprocessing summary
 
 ## Mapping question:
-How many Windturbines are within 100 miles of Grand Canyon National Park outter boundaries?
+How many Wind Turbines are within 100 miles of Grand Canyon National Park outter boundaries?
 
 
 ## Data utilized:
@@ -13,7 +13,9 @@ Grand Canyon Boundary - US National Parks Service - https://public-nps.opendata.
 ## Result: 
 ![Grand Canyon Map](grandCanyon.png)
 
+There are 194 wind turbines within 100 miles of Grand Canyon Nation Park.
+
 
 
 ## Mapping answer:
-Provide a summary paragraph that identifies how your result answers the mapping question. What's the takeaway message from your analysis? Please include that here.
+I used a Buffer to establish 100 linear miles from the outer boundaries of the national park. i then used select attributes by location to identify the wind turbines located within 100 miles of the national park and extported those selected feature to their own GEOjson. Then used a count query to get the total number of wind turbines. By doing this I was able to get the excact number of wind turbines.
